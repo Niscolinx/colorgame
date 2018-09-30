@@ -1,0 +1,31 @@
+body{
+    background-color: #232323;
+}
+.square{
+    width: 30%;
+    background: purple;
+    padding-bottom: 30%;
+    margin: 1.66%;
+    float: left;
+    border-radius: 20px;
+}
+
+#container{
+    max-width: 600px;
+    margin: 0 auto;
+}
+h1,h2{
+    color: white;
+    text-align: center;
+} 
+
+#colorheader{
+    text-align: center;
+    height: 30px;
+    background: white;
+    color: black;
+}
+.selected{
+    background-color: blue;
+    transition: 0.5s;
+}
